@@ -1,4 +1,4 @@
-﻿import json
+import json
 from twitter import TwitterStream, OAuth
 
 #
@@ -54,8 +54,6 @@ tweets.close()
 #
 # clean up the tweets to remove punctuations, hashtags, and other unwanted stuff #
  
-import json
- 
 end_strip = [".", ",", "?", "/", "!", "*", ":", ")", "'", '"']
 start_strip = [":", "*", "(", "'", '"']
  
@@ -104,23 +102,24 @@ print "Done cleaning up tweets."
 
 #
 # Generate a word cloud image
+# Optional part of the code, hence commented out
 #
-%matplotlib inline # for iPython notebook use
- 
-f = open("./static/tweets_clean.txt", "r")
-text = f.read()
- 
-from wordcloud import WordCloud
-wordcloud = WordCloud().generate(text)
- 
-import matplotlib.pyplot as plt
-plt.imshow(wordcloud)
-plt.axis("off")
- 
-wordcloud = WordCloud(max_font_size=40, relative_scaling=.5).generate(text)
- 
-plt.imshow(wordcloud)
-plt.axis("off")
-plt.show()
+#%matplotlib inline # for iPython notebook use
+# 
+#f = open("./static/tweets_text.txt", "r")
+#text = f.read()
+# 
+#from wordcloud import WordCloud
+#wordcloud = WordCloud().generate(text)
+# 
+#import matplotlib.pyplot as plt
+#plt.imshow(wordcloud)
+#plt.axis("off")
+# 
+#wordcloud = WordCloud(max_font_size=40, relative_scaling=.5).generate(text)
+# 
+#plt.imshow(wordcloud)
+#plt.axis("off")
+#plt.show()
 
 # end of watson_get_tweets.py
