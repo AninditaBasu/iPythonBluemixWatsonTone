@@ -10,7 +10,7 @@ A starter app to analyse the tone of tweets through Watson services on Bluemix. 
    
 ## Use
 
-1.   If you haven't already, read Part 1 of this tutorial series. Follow through at least Step 1 in that article (the one about getting your Twitter credentials).
+1.   If you haven't already, read [Part 1 of this tutorial series](http://www.ibm.com/developerworks/library/cc-ask-watson-part1-bluemix-trs/index.html). Follow through at least Step 1 in that article (the one about getting your Twitter credentials).
 2.   Import the `watson_get_tweets.py` script and run it. You generate the files that are needed to work through Part 2 of the tutorial article.
 
 ## Files and folders
