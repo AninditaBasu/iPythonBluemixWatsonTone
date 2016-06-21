@@ -4,10 +4,10 @@ from twitter import TwitterStream, OAuth
 #
 # Authenticate yourself with Twitter
 #
-CONSUMER_KEY = raw_input('Enter the Twitter  consumer key: ')
-CONSUMER_SECRET = raw_input('Enter the Twitter  consumer key secret: ')
-ACCESS_TOKEN = raw_input('Enter the Twitter  access token: ')
-ACCESS_SECRET = raw_input('Enter the Twitter  access token secret: ')
+CONSUMER_KEY = raw_input('Enter the Twitter consumer key: ')
+CONSUMER_SECRET = raw_input('Enter the Twitter consumer key secret: ')
+ACCESS_TOKEN = raw_input('Enter the Twitter access token: ')
+ACCESS_SECRET = raw_input('Enter the Twitter access token secret: ')
  
 oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
 
