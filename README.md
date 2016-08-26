@@ -1,6 +1,6 @@
 # iPythonBluemixWatsonTone
 
-A starter app to analyse the tone of tweets through Watson services on Bluemix. This code accompanies the developerWorks tutorial [Ask Watson What Twitter Is Telling You, Part 2](http://www.ibm.com/developerworks/library/cc-ask-watson-part2-bluemix-trs/index.html).
+A starter app to analyse the tone of tweets through Watson services on Bluemix. This code accompanies the developerWorks tutorial [Ask Watson What Twitter Is Telling You, Part 2](http://www.ibm.com/developerworks/library/cc-ask-watson-part2-bluemix-trs/index.html), [Part 3](http://www.ibm.com/developerworks/library/cc-ask-watson-part3-bluemix-trs/index.html?ca=drs-), and [Part 4](http://www.ibm.com/developerworks/library/cc-ask-watson-part4-bluemix-trs/index.html?ca=drs-).
 
 ## Installation
 
